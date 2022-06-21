@@ -8,7 +8,7 @@ Deze Terraform configuratie kan worden gebruikt om een Ubuntu LTS instance op VM
 
 Hier onder een voorbeeld hoe de terraform.tfvars eruit kan komen te zien.
 
-``terraform
+```terraform
 # vCenter connectivity
 vsphere_server      = "10.10.10.10"
 vsphere_user        = "administrator@vsphere.local"
@@ -53,4 +53,4 @@ vm_settings = {
         sshkey          = "ssh-rsa AAAAAAAAAAAA"
     }
 }
-``
+```
